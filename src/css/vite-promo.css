@@ -1,21 +1,6 @@
 /* Vite promo styles */
-.vite-promo {
-  padding: 5rem 0;
-}
 
-.vite-promo .container {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
 
-  width: 86vw;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.vite-promo .wrapper {
-  max-width: 36rem;
-}
 
 .vite-promo .title,
 .vite-promo .text {
@@ -29,7 +14,7 @@
 }
 
 .vite-promo .gradient {
-  display: inline-block;
+  display: block;
   background-image: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 
   -webkit-text-fill-color: transparent;
